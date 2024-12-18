@@ -1,0 +1,7 @@
+@media (max-width: 1117px) {
+    #head {
+      display: flex;
+      gap: 7rem;
+      padding: 0;
+    }
+  }

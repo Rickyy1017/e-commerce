@@ -1,0 +1,140 @@
+@media (max-width: 1117px) {
+  #head {
+    display: flex;
+    gap: 7rem;
+    padding: 0;
+  }
+}
+@media (max-width: 1023px) {
+  #ul {
+    display: none;
+    max-width: 100%;
+    padding: 0;
+  }
+}
+@media (max-width: 1290px) {
+    #head {
+        display: flex;
+        gap: 7rem;
+      }
+}
+@media (max-width: 1419px) {
+    #head {
+        display: flex;
+        gap: 7rem;
+      }
+}
+@media (max-width: 600px) {
+  #select {
+    font-size: 15px;
+    display: none;
+  }
+  .free {
+    padding: 0;
+  }
+  #head {
+    justify-content: start;
+  }
+}
+@media (max-width: 470px) {
+  #head {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+    #head {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 305px) {
+    #head{
+        display: none;
+    }
+}
+
+
+
+/* second responsive */
+
+
+
+@media (max-width: 1290px) {
+    #head2 {
+        display: flex;
+        gap: 4rem;
+      }
+      #input {
+        width: 30rem;
+        padding: 0.2;
+        font-size: 15px;
+      }
+      #magnify{
+        max-width: 30rem;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        font-size: 15px;
+      }
+      
+}
+@media (max-width: 1419px) {
+    #head2 {
+        display: flex;
+        gap: 4rem;
+      }
+      #input {
+        width: 30rem;
+        padding: 0.2;
+        font-size: 15px;
+      }
+      #magnify{
+        max-width: 30rem;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        font-size: 15px;
+      }
+      
+}
+@media (max-width: 1023px) {
+    #icon {
+      display: none;
+      max-width: 100%;
+      padding: 0;
+    }
+    #head2 {
+        display: flex;
+        gap: 10rem;
+      }
+      #input {
+        width: 20rem;
+        padding: 0.2;
+        font-size: 15px;
+      }
+
+  }
+  @media (max-width: 770px) {
+    #head2 {
+       display: flex;
+       justify-content: space-between;
+    }
+}
+  @media (max-width: 600px) {
+    #head2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    #main {
+        width: 100%;
+    }
+    #input {
+        width: 100%;
+        padding: 0.2;
+        font-size: 15px;
+      }
+    
+  }
